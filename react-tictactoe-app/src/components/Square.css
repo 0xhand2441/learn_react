@@ -1,11 +1,14 @@
+.board-row {
+    overflow: hidden;
+}
+
 .square {
+    float: left;
     background-color: white;
     border: 1px solid;
     font-size: 24px;
     width: 34px;
     height: 34px;
-    margin-right: -1px;
-    margin-top: -5px;
     padding: 0;
     text-align: center;
 }
